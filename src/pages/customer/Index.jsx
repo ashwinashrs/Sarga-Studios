@@ -27,7 +27,7 @@ function Index() {
         <Row>
           <Col>
             <Button style={{ backgroundColor: '#5cadff', border: 'none' }} variant="primary" onClick={handleShow}>
-              + ADD CUSTOMER
+              + Add
             </Button>
           </Col>
           <Col xs="auto">
