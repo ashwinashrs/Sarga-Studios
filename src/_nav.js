@@ -23,13 +23,13 @@ const _nav = [
   },
   {
     component: CNavItem,
-    name: 'Customer Register',
+    name: 'Customer',
     to: '/Customer-Register',
     icon: <CIcon icon={cilUser} customClassName="nav-icon" />,
   },
   {
     component: CNavItem,
-    name: 'Order',
+    name: 'Orders',
     to: '/order',
     icon: <CIcon icon={cilExcerpt} customClassName="nav-icon" />,
   },
@@ -59,13 +59,13 @@ const _nav = [
     items: [
       {
         component: CNavItem,
-        name: 'Type of Customer',
-        to: '/settings/Type of Customer',
+        name: 'Customer Type',
+        to: '/settings/Customer Type',
         icon: <CIcon icon={cilUserFollow} customClassName="nav-icon" />,
       },{
         component: CNavItem,
-        name: 'Type of Items',
-        to: '/settings/Type of Items',
+        name: 'Item Type',
+        to: '/settings/Item Type',
         icon: <CIcon icon={cilColorPalette} customClassName="nav-icon" />,
       }
     ]

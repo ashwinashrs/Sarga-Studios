@@ -47,8 +47,8 @@ const routes = [
 
   // Settings
   { path: '/settings', name: 'Settings', element: Settings },
-  { path: '/settings/Type of Customer', name: 'Type Of Customer', element: TypeofCustomer },
-  { path: '/settings/Type of Items', name: 'Type of Items', element: TypeofItems },
+  { path: '/settings/Customer Type', name: 'Customer Type', element: TypeofCustomer },
+  { path: '/settings/Item Type', name: 'Item Type', element: TypeofItems },
 
   // Widgets
   { path: '/widgets', name: 'Widgets', element: Widgets },
