@@ -26,7 +26,7 @@ function Index() {
       <Container >
         <Row>
           <Col>
-            <Button style={{ backgroundColor: '#5cadff', border: 'none' }} variant="primary" onClick={handleShow}>
+            <Button style={{ backgroundColor: '#3c4b64', border: 'none' }} variant="primary" onClick={handleShow}>
               + Add
             </Button>
           </Col>
@@ -40,7 +40,7 @@ function Index() {
                 />
               </div>
               <div>
-                <div style={{ border: '1px solid #dfdfdb', borderRadius: '5px', padding: '5px', backgroundColor: '#9da5b1' }}>
+                <div style={{ border: '1px solid #dfdfdb', borderRadius: '5px', padding: '5px', backgroundColor: 'rgb(235 239 243)' }}>
                   <FontAwesomeIcon icon={faBolt} className='me-2' />
                   Count <Badge bg="secondary">1</Badge>
                 </div>

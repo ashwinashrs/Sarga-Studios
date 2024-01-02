@@ -44,24 +44,25 @@ function Order() {
             <td>
               <div style={{width:'60px',height:'30px',backgroundColor:'yellow',
               border:'1px solid yellow', borderRadius:'6px' }}>
-SPENT
+ SPEND
               </div>
             </td>
             <td>20-2-23</td>
-            <td style={{ textAlign: 'center', width: 'auto'}}>
-              <Button variant="outline-info" >
-                <FontAwesomeIcon icon={faEye} />
-              </Button>{' '}
-              <Button variant="outline-warning">
-                <FontAwesomeIcon icon={faPen} />
-              </Button>{' '}
-              <Button variant="outline-danger">
-                <FontAwesomeIcon icon={faTrash} />
-              </Button>{' '}
-              <Button variant="outline-primary">
-                <FontAwesomeIcon icon={faPlus} />
-              </Button>{' '}
-            </td>
+            <td style={{ textAlign: 'center', width: 'auto' }}>
+  <Button variant="outline-info" style={{ borderColor: '#44536d', backgroundColor: 'white' }}>
+    <FontAwesomeIcon icon={faEye} style={{ color: '#44536d' }} />
+  </Button>{' '}
+  <Button variant="outline-warning" style={{ borderColor: '#44536d', backgroundColor: 'white' }}>
+    <FontAwesomeIcon icon={faPen} style={{ color: '#44536d' }} />
+  </Button>{' '}
+  <Button variant="outline-danger" style={{ borderColor: '#44536d', backgroundColor: 'white' }}>
+    <FontAwesomeIcon icon={faTrash} style={{ color: '#44536d' }} />
+  </Button>{' '}
+  <Button variant="outline-primary" style={{ borderColor: '#44536d', backgroundColor: 'white' }}>
+    <FontAwesomeIcon icon={faPlus} style={{ color: '#44536d' }} />
+  </Button>{' '}
+</td>
+
           </tr>
         </tbody>
       </Table>

@@ -11,7 +11,7 @@ import { faBolt } from '@fortawesome/free-solid-svg-icons';
 import AddStaff from './AddStaff';
 import SaffTable from './SaffTable';
 
-function index() {
+function Index() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -25,8 +25,8 @@ function index() {
       <Container >
         <Row>
           <Col>
-            <Button style={{ backgroundColor: '#5cadff', border: 'none' }} variant="primary" onClick={handleShow}>
-              + ADD 
+            <Button style={{ backgroundColor: '#44536d', border: 'none' }} variant="primary" onClick={handleShow}>
+              + Add
             </Button>
           </Col>
           <Col xs="auto">
@@ -39,7 +39,7 @@ function index() {
                 />
               </div>
               <div>
-                <div style={{ border: '1px solid #dfdfdb', borderRadius: '5px', padding: '5px', backgroundColor: '#9da5b1' }}>
+                <div style={{ border: '1px solid #dfdfdb', borderRadius: '5px', padding: '5px', backgroundColor: 'rgb(235 239 243)' }}>
                   <FontAwesomeIcon icon={faBolt} className='me-2' />
                   Count <Badge bg="secondary">1</Badge>
                 </div>
@@ -64,4 +64,4 @@ function index() {
   );
 }
 
-export default index
+export default Index;

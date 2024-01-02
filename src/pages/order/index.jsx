@@ -24,7 +24,7 @@ function index() {
                                 />
                             </div>
                             <div>
-                                <div style={{ border: '1px solid #dfdfdb', borderRadius: '5px', padding: '5px', backgroundColor:'#9da5b1'}}>
+                                <div style={{ border: '1px solid #dfdfdb', borderRadius: '5px', padding: '5px', backgroundColor:'rgb(235 239 243)'}}>
                                     Count <Badge bg="secondary">1</Badge>
                                 </div>
                             </div>

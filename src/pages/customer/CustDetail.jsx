@@ -30,24 +30,36 @@ function CustDetail() {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td> <Form.Check aria-label="option 1" /></td>
-            <td>1</td>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-            <td style={{ textAlign: 'center', width: 'auto' }}>
-              <Button variant="outline-info">
-                <FontAwesomeIcon icon={faEye} />
-              </Button>{' '}
-              <Button variant="outline-warning">
-                <FontAwesomeIcon icon={faPen}  />
-              </Button>{' '}
-              <Button variant="outline-danger">
-                <FontAwesomeIcon icon={faTrash} />
-              </Button>{' '}
-            </td>
-          </tr>
+        <tr>
+      <td> <Form.Check aria-label="option 1" /></td>
+      <td>1</td>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td style={{ textAlign: 'center', width: 'auto' }}>
+        <Button
+          variant="outline-info"
+          style={{ backgroundColor: 'white', borderColor: '#44536d' }}
+          className="hover-button"
+        >
+          <FontAwesomeIcon icon={faEye} style={{ color: '#44536d' }} />
+        </Button>{' '}
+        <Button
+          variant="outline-warning"
+          style={{ backgroundColor: 'white', borderColor: '#44536d' }}
+          className="hover-button"
+        >
+          <FontAwesomeIcon icon={faPen} style={{ color: '#44536d' }} />
+        </Button>{' '}
+        <Button
+          variant="outline-danger"
+          style={{ backgroundColor: 'white', borderColor: '#44536d' }}
+          className="hover-button"
+        >
+          <FontAwesomeIcon icon={faTrash} style={{ color: '#44536d' }} />
+        </Button>{' '}
+      </td>
+    </tr>
         </tbody>
       </Table>
       <div style={{ textAlign: 'center' , justifyContent:'center' ,display:'flex'}}>
