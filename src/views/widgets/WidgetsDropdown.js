@@ -16,9 +16,14 @@ import { cilArrowBottom, cilArrowTop, cilOptions } from '@coreui/icons'
 const WidgetsDropdown = () => {
   return (
     <CRow>
+<<<<<<< HEAD
       <CCol sm={6} lg={2}>
         <CWidgetStatsA
         style={{height:"220px"}}
+=======
+      <CCol sm={6} lg={3}>
+        <CWidgetStatsA
+>>>>>>> e4765e95afa90c216796db57cc1f77ee374228af
           className="mb-4"
           color="primary"
           value={
@@ -29,7 +34,11 @@ const WidgetsDropdown = () => {
               </span>
             </>
           }
+<<<<<<< HEAD
           title="Customer"
+=======
+          title="Users"
+>>>>>>> e4765e95afa90c216796db57cc1f77ee374228af
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
@@ -104,9 +113,14 @@ const WidgetsDropdown = () => {
           }
         />
       </CCol>
+<<<<<<< HEAD
       <CCol sm={6} lg={2}>
         <CWidgetStatsA
         style={{height:"220px"}}
+=======
+      <CCol sm={6} lg={3}>
+        <CWidgetStatsA
+>>>>>>> e4765e95afa90c216796db57cc1f77ee374228af
           className="mb-4"
           color="info"
           value={
@@ -117,7 +131,11 @@ const WidgetsDropdown = () => {
               </span>
             </>
           }
+<<<<<<< HEAD
           title="Order"
+=======
+          title="Income"
+>>>>>>> e4765e95afa90c216796db57cc1f77ee374228af
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
@@ -191,9 +209,14 @@ const WidgetsDropdown = () => {
           }
         />
       </CCol>
+<<<<<<< HEAD
       <CCol sm={6} lg={2}>
         <CWidgetStatsA
         style={{height:"220px"}}
+=======
+      <CCol sm={6} lg={3}>
+        <CWidgetStatsA
+>>>>>>> e4765e95afa90c216796db57cc1f77ee374228af
           className="mb-4"
           color="warning"
           value={
@@ -204,7 +227,11 @@ const WidgetsDropdown = () => {
               </span>
             </>
           }
+<<<<<<< HEAD
           title="Enquiries"
+=======
+          title="Conversion Rate"
+>>>>>>> e4765e95afa90c216796db57cc1f77ee374228af
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
@@ -265,13 +292,19 @@ const WidgetsDropdown = () => {
           }
         />
       </CCol>
+<<<<<<< HEAD
       <CCol sm={6} lg={2}>
         <CWidgetStatsA
         style={{height:"220px"}}
+=======
+      <CCol sm={6} lg={3}>
+        <CWidgetStatsA
+>>>>>>> e4765e95afa90c216796db57cc1f77ee374228af
           className="mb-4"
           color="danger"
           value={
             <>
+<<<<<<< HEAD
               2.49{' '}
               <span className="fs-6 fw-normal">
                 (84.7% <CIcon icon={cilArrowTop} />)
@@ -346,13 +379,19 @@ const WidgetsDropdown = () => {
           color="secondary"
           value={
             <>
+=======
+>>>>>>> e4765e95afa90c216796db57cc1f77ee374228af
               44K{' '}
               <span className="fs-6 fw-normal">
                 (-23.6% <CIcon icon={cilArrowBottom} />)
               </span>
             </>
           }
+<<<<<<< HEAD
           title="Teams"
+=======
+          title="Sessions"
+>>>>>>> e4765e95afa90c216796db57cc1f77ee374228af
           action={
             <CDropdown alignment="end">
               <CDropdownToggle color="transparent" caret={false} className="p-0">
@@ -432,6 +471,7 @@ const WidgetsDropdown = () => {
           }
         />
       </CCol>
+<<<<<<< HEAD
 
       <CCol sm={6} lg={2}>
         <CWidgetStatsA 
@@ -527,6 +567,8 @@ const WidgetsDropdown = () => {
         />
       </CCol>
 
+=======
+>>>>>>> e4765e95afa90c216796db57cc1f77ee374228af
     </CRow>
   )
 }

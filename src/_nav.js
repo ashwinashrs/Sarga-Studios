@@ -60,12 +60,21 @@ const _nav = [
       {
         component: CNavItem,
         name: 'Customer Type',
+<<<<<<< HEAD
         to: '/settings/Type of Customer',
         icon: <CIcon icon={cilUserFollow} customClassName="nav-icon" />,
       },{
         component: CNavItem,
         name: 'Items',
         to: '/settings/Type of Items',
+=======
+        to: '/settings/Customer Type',
+        icon: <CIcon icon={cilUserFollow} customClassName="nav-icon" />,
+      },{
+        component: CNavItem,
+        name: 'Item Type',
+        to: '/settings/Item Type',
+>>>>>>> e4765e95afa90c216796db57cc1f77ee374228af
         icon: <CIcon icon={cilColorPalette} customClassName="nav-icon" />,
       }
     ]

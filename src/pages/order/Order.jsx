@@ -6,8 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye, faPen, faTrash , faPlus} from '@fortawesome/free-solid-svg-icons';
 import Pagination from 'react-bootstrap/Pagination'
 
-function Enquiries() {
-  
+function Order() {
 
   let active = 1;
   let items = [];
@@ -29,6 +28,8 @@ function Enquiries() {
             <th>Contact No</th>
             <th>Order</th>
             <th>Order Date</th>
+            <th>Status</th>
+            <th>Deadline</th>
             <th>Action</th>
           </tr>
         </thead>
@@ -40,22 +41,13 @@ function Enquiries() {
             <td>8593856881</td>
             <td>Visiting card</td>
             <td>12-2-23</td>
-<<<<<<< HEAD
-            <td style={{ textAlign: 'center', width: 'auto'}}>
-              <Button variant="outline-info" >
-                <FontAwesomeIcon icon={faEye} />
-              </Button>{' '}
-              <Button variant="outline-warning">
-                <FontAwesomeIcon icon={faPen} />
-              </Button>{' '}
-              <Button variant="outline-danger">
-                <FontAwesomeIcon icon={faTrash} />
-              </Button>{' '}
-              <Button variant="outline-primary">
-                <FontAwesomeIcon icon={faPlus} />
-              </Button>{' '}
+            <td>
+              <div style={{width:'60px',height:'30px',backgroundColor:'yellow',
+              border:'1px solid yellow', borderRadius:'6px' }}>
+ SPEND
+              </div>
             </td>
-=======
+            <td>20-2-23</td>
             <td style={{ textAlign: 'center', width: 'auto' }}>
   <Button variant="outline-info" style={{ borderColor: '#44536d', backgroundColor: 'white' }}>
     <FontAwesomeIcon icon={faEye} style={{ color: '#44536d' }} />
@@ -71,7 +63,6 @@ function Enquiries() {
   </Button>{' '}
 </td>
 
->>>>>>> e4765e95afa90c216796db57cc1f77ee374228af
           </tr>
         </tbody>
       </Table>
@@ -88,4 +79,4 @@ function Enquiries() {
   )
 }
 
-export default Enquiries
+export default Order

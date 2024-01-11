@@ -41,14 +41,20 @@
     "react": "^18.2.0",
     "react-app-polyfill": "^3.0.0",
     "react-bootstrap": "^2.9.2",
+<<<<<<< HEAD
     "react-data-table-component": "^7.5.4",
+=======
+>>>>>>> e4765e95afa90c216796db57cc1f77ee374228af
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.1",
     "react-router-dom": "^6.14.0",
     "redux": "4.2.1",
     "simplebar-react": "^2.4.3",
+<<<<<<< HEAD
     "styled-components": "^6.1.6",
     "sweetalert2": "^11.10.2",
+=======
+>>>>>>> e4765e95afa90c216796db57cc1f77ee374228af
     "yup": "^1.3.3"
   },
   "devDependencies": {

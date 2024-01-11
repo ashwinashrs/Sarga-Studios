@@ -35,6 +35,7 @@ const AppHeader = () => {
         </CHeaderBrand>
         <CHeaderNav className="d-none d-md-flex me-auto">
           <CNavItem>
+<<<<<<< HEAD
             {/* <CNavLink to="/dashboard" component={NavLink}>
               Dashboard
             </CNavLink> */}
@@ -46,6 +47,20 @@ const AppHeader = () => {
           </CNavItem>
         </CHeaderNav>
         {/* <CHeaderNav>
+=======
+            <CNavLink to="/dashboard" component={NavLink}>
+              Dashboard
+            </CNavLink>
+          </CNavItem>
+          <CNavItem>
+            <CNavLink href="#">Users</CNavLink>
+          </CNavItem>
+          <CNavItem>
+            <CNavLink href="#">Settings</CNavLink>
+          </CNavItem>
+        </CHeaderNav>
+        <CHeaderNav>
+>>>>>>> e4765e95afa90c216796db57cc1f77ee374228af
           <CNavItem>
             <CNavLink href="#">
               <CIcon icon={cilBell} size="lg" />
@@ -61,15 +76,25 @@ const AppHeader = () => {
               <CIcon icon={cilEnvelopeOpen} size="lg" />
             </CNavLink>
           </CNavItem>
+<<<<<<< HEAD
         </CHeaderNav> */}
+=======
+        </CHeaderNav>
+>>>>>>> e4765e95afa90c216796db57cc1f77ee374228af
         <CHeaderNav className="ms-3">
           <AppHeaderDropdown />
         </CHeaderNav>
       </CContainer>
       <CHeaderDivider />
+<<<<<<< HEAD
       {/* <CContainer fluid>
         <AppBreadcrumb />
       </CContainer> */}
+=======
+      <CContainer fluid>
+        <AppBreadcrumb />
+      </CContainer>
+>>>>>>> e4765e95afa90c216796db57cc1f77ee374228af
     </CHeader>
   )
 }

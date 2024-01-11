@@ -3,7 +3,11 @@ import React from 'react'
 const Dashboard = React.lazy(() => import('./views/dashboard/Dashboard'))
 
 // CustomerRegister
+<<<<<<< HEAD
 const CustomerRegister = React.lazy(() => import('./pages/custforms/Index'))
+=======
+const CustomerRegister = React.lazy(() => import('./pages/customer/Index'))
+>>>>>>> e4765e95afa90c216796db57cc1f77ee374228af
 
 // Order items
 const Order = React.lazy(() => import('./pages/order/index'))
@@ -47,8 +51,13 @@ const routes = [
 
   // Settings
   { path: '/settings', name: 'Settings', element: Settings },
+<<<<<<< HEAD
   { path: '/settings/Type of Customer', name: 'Type Of Customer', element: TypeofCustomer },
   { path: '/settings/Type of Items', name: 'Type of Items', element: TypeofItems },
+=======
+  { path: '/settings/Customer Type', name: 'Customer Type', element: TypeofCustomer },
+  { path: '/settings/Item Type', name: 'Item Type', element: TypeofItems },
+>>>>>>> e4765e95afa90c216796db57cc1f77ee374228af
 
   // Widgets
   { path: '/widgets', name: 'Widgets', element: Widgets },
